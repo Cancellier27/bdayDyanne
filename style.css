@@ -60,6 +60,7 @@ button:active {
 }
 
 .hidedDiv {
+    height: 1vh;
     position: absolute;
     top: 0;
     bottom: 0;
