@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(66, 66, 66);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: yellow;
+}
+
+input {
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+button {
+    background-color: yellow;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+button:active {
+    background-color: rgb(196, 196, 0);
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorMessage {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    font-size: 15px;
+    color: red;
+}
+
+.container {
+    position: relative;
+}
+
+.hidedDiv {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(207, 182, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: black;
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    border: 4px yellow solid;
+    border-radius: 20px;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.726);
+}
+a:active {
+    background-color: rgb(26, 26, 26);
+}
