@@ -3,6 +3,7 @@
     padding: 0;
     background-color: rgb(66, 66, 66);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -69,6 +70,7 @@ button:active {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 img {

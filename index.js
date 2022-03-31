@@ -1,4 +1,4 @@
-const bdPassword = "filipe"
+const bdPassword = "cubo"
 
 window.onload = function () {
   document.querySelector("input").focus()
